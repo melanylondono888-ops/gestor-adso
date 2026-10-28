@@ -57,3 +57,49 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+# 🚀 Gestor ADSO - Proyecto Base Laravel
+
+Este repositorio contiene la estructura inicial y la configuración del entorno de desarrollo local para el proyecto **Gestor ADSO**, desarrollado como parte de la formación técnica en Análisis y Desarrollo de Software (ADSO) del SENA.
+
+---
+
+## 📌 Datos Generales del Proyecto
+
+* **Aprendiz:** Melany Cardona Londoño
+* **Documento:** 1034993876
+* **Programa:** Tecnólogo en Análisis y Desarrollo de Software (ADSO)
+* **Ficha:** 3412785
+* **Institución:** SENA - Regional Antioquia
+* **Repositorio:** [https://github.com/melanylondono888-ops/gestor-adso.git](https://github.com/melanylondono888-ops/gestor-adso.git)
+
+---
+
+## 🛠️ Requisitos del Entorno y Versiones Utilizadas
+
+Para garantizar la correcta reproducibilidad de este proyecto en otro entorno, asegúrese de contar con las siguientes versiones instaladas y verificadas:
+
+* **Sistema Operativo:** Windows 10 / 11
+* **PHP:** `8.2.12` (CLI)
+* **Composer:** `2.10.3`
+* **Laravel Framework:** `12.69.3`
+* **Git:** `2.48.1` / `2.55.0`
+* **Base de Datos:** MariaDB / MySQL (vía XAMPP Control Panel v3.3.0)
+* **Servidor Web Local:** Apache (XAMPP) / PHP Artisan Serve
+
+### 📋 Extensiones de PHP Requeridas
+Asegúrese de tener habilitadas las siguientes extensiones en el archivo `php.ini`:
+`bcmath`, `curl`, `fileinfo`, `mbstring`, `mysqli`, `openssl`, `pdo`, `pdo_mysql`, `tokenizer`, `xml`.
+
+---
+
+## ⚙️ Pasos de Instalación y Configuración Local
+
+Siga este procedimiento paso a paso para clonar y ejecutar el proyecto en un entorno local de desarrollo:
+
+### 1. Clonar el repositorio
+```bash
+git clone [https://github.com/melanylondono888-ops/gestor-adso.git](https://github.com/melanylondono888-ops/gestor-adso.git)
+cd gestor-adso
